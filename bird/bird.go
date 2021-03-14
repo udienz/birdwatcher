@@ -304,7 +304,7 @@ func Symbols(useCache bool) (Parsed, bool) {
 }
 
 func routesQuery(filter string) string {
-	cmd := "route " + filter
+	cmd := "route for " + filter
 	if getBirdVersion() < 2 {
 		return cmd
 	}
