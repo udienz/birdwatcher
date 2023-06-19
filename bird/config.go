@@ -31,4 +31,6 @@ type CacheConfig struct {
 	RedisServer   string `toml:"redis_server"`
 	RedisPassword string `toml:"redis_password"`
 	RedisDb       int    `toml:"redis_db"`
+
+	MaxKeys int `toml:"max_keys"`
 }

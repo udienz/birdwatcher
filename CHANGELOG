@@ -1,3 +1,28 @@
+2.2.5
+
+* Fixes a problem where the cache can run out of memory.
+  The number of entries is now limited by the `max_keys`
+  setting in the `[cache_config]` section.
+
+2.2.4
+
+* Fixes missing details for routes/table/.../filtered
+
+2.2.3
+
+* Fixed parsing of bird version in status
+
+2.2.2
+
+* Minor patches, Readme updates
+* Quotes for pipe, protocol and table names
+
+2.2.1
+
+* Fixed status parsing (PR 37)
+* Added FreeBSD compatibility
+
+
 2.2.0
 
 * Fixed hardcoded paths to birdc
